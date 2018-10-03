@@ -23,3 +23,6 @@ Run the bash file ./bash.sh
 # option 2
 Make sure you have flask installed
 python app.py 
+
+# CickHouse 
+I used Clickhouse Docker image to run the database server. But the flask app does not connect to the clickhouse server properly. I am using https://github.com/mymarilyn/clickhouse-driver this connector. 
